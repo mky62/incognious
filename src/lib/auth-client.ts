@@ -11,7 +11,7 @@ function getClientAuthBaseUrl() {
 
   const envBaseUrl =
     sanitizeBaseUrl(process.env.NEXT_PUBLIC_BETTER_AUTH_URL) ??
-    "http://localhost:3000";
+    "https://incognious.vercel.app";
 
   return `${envBaseUrl}/api/auth`;
 }

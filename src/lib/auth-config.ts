@@ -7,5 +7,5 @@ export function sanitizeBaseUrl(value?: string) {
 }
 
 export function getServerAuthBaseUrl() {
-  return sanitizeBaseUrl(process.env.BETTER_AUTH_URL) ?? "http://localhost:3000";
+  return sanitizeBaseUrl(process.env.BETTER_AUTH_URL) ??  "https://incognious.vercel.app";
 }
